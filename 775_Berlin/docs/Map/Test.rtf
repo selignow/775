@@ -1,0 +1,15 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red231\green231\blue231;\red79\green75\blue0;\red0\green111\blue0;
+\red0\green8\blue111;\red92\green0\blue77;\red0\green78\blue77;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16520\viewh6780\viewkind0
+\deftab720
+\pard\pardeftab720\ql\qnatural
+
+\f0\fs24 \cf0 \cb2 $\cf3 (\cf4 '#map_canvas'\cf3 ).\cf0 gmap\cf3 (\{\cf0  \cf4 'center'\cf3 :\cf5 new\cf0  google\cf3 .\cf0 maps\cf3 .\cf6 LatLng\cf3 (\cf7 52.520900,13.403400\cf3 ),\cf0  \cf4 'callback'\cf3 :\cf0  \cf5 function\cf3 ()\cf0  \cf3 \{\cf0 \
+\'a0 \'a0 \'a0 \'a0 $\cf3 .\cf0 getJSON\cf3 (\cf0  \cf4 'http://jquery-ui-map.googlecode.com/svn/trunk/demos/json.json'\cf3 ,\cf0  \cf4 'category=activity'\cf3 ,\cf0  \cf5 function\cf3 (\cf0 data\cf3 )\cf0  \cf3 \{\cf0  \
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 $\cf3 .\cf0 each\cf3 (\cf0  data\cf3 .\cf0 markers\cf3 ,\cf0  \cf5 function\cf3 (\cf0 i\cf3 ,\cf0  m\cf3 )\cf0  \cf3 \{\cf0 \
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 $\cf3 (\cf4 '#map_canvas'\cf3 ).\cf0 gmap\cf3 (\cf4 'addMarker'\cf3 ,\cf0  \cf3 \{\cf0  \cf4 'position'\cf3 :\cf0  \cf5 '52.520500,13.407300', 'bounds': true\}).click(function() \{\
+	$('#map_canvas').gmap('openInfoWindow', \{'content': '<a href="Heilig-Geist-Kapelle.html" data-transition="slideup">Marienkirche </a>'\}, this);\cf0 \
+\'a0 \'a0 \'a0 \'a0 \cf3 \});\cf0 \
+\cf3 \}\});}

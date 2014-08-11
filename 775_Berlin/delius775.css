@@ -1,0 +1,305 @@
+hr.linie { 
+    border:none; 
+    border-top: 1px solid #666666; 
+    height: 1px; 
+}
+
+div.container{
+    border:0px;
+    position:relative;
+    top:0px;
+    left:0px;
+}
+div.target{
+    width:100%;
+    height:100%;
+    text-align:center;
+}​
+.list-blackbold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+}
+.list-blackbold2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+    line-height:210%;
+}
+.list-blackbold3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #333333;
+	text-align: left;
+    letter-spacing:4%;    
+}
+.list-black {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #333333;
+	text-align: left;
+    line-height:120%;
+    letter-spacing:4%;
+}
+.list-greybold2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #666666;
+	text-align: left;
+    line-height:210%;
+}
+.list-whitebold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+}
+.list-whitebold2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+    line-height:210%;
+}
+.list-white {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-align: left;
+    line-height:120%;
+    letter-spacing:4%;
+}
+.list-yellowbold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #CC9900;
+	text-align: left;
+}
+.list-magentabold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #b94073;
+	text-align: left;
+}
+.title1_blackbold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+    line-height:135%;
+    padding-top:5px;
+}
+.title1_black {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+    line-height:135%;
+    padding-top:5px;
+    padding-left:0px;
+}
+.title1_Preis {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+    line-height:135%;
+    padding-top:5px;
+    padding-left:10px;
+}
+.title_Verlag {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #333333;
+	text-align: left;
+    padding-left:10px;
+    line-height:135%;     
+}
+.title1_Autor {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+    line-height:135%;
+    padding-top:20px;  
+}
+.title1_Info {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #333333;
+	text-align: left;
+    line-height:135%;
+    padding-top:0px;      
+}
+.center_magentabold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #b94073;
+	text-align: center;
+    line-height:135%;
+    padding-top:5px;        
+}
+.center_greybold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+    line-height:135%;
+    padding-top:5px;
+}
+.center_grey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #333333;
+	text-align: center;
+    line-height:135%;
+    letter-spacing:0px;
+}
+.title1_Infogrey_right {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #333333;
+	text-align: right;
+    line-height:135%;
+    padding-top:0px;                   
+}
+.text-blackbold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+    line-height:135%;
+    letter-spacing:0px;
+}
+.text-magentabold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #b94073;
+	text-align: left;
+    line-height:135%;
+    letter-spacing:0px;    
+}
+.text-black {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+    line-height:135%;
+    letter-spacing:0px;
+    padding-top:5px;
+}
+.text-blackItl {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+    line-height:135%;
+    letter-spacing:0px;
+}
+.text-grey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #333333;
+	text-align: left;
+    line-height:135%;
+    letter-spacing:0px;
+}
+.text-greyindent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #333333;
+	text-align: left;
+    line-height:135%;
+    letter-spacing:0px;
+    padding-left:15px;
+}
+.text-greyItl {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: normal;
+	color: #333333;
+	text-align: left;
+    line-height:135%;
+    letter-spacing:0px;
